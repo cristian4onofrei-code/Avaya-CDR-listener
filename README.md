@@ -1,5 +1,5 @@
 # Avaya-CDR-listener
-alternative to list bcms skill but for regular hunt groups 
+alternative to _list bcms skill_ but for regular hunt groups 
 
 **Requirements:**
 - Onex Communicator SIP registered to Session Manager
