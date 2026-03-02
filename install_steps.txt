@@ -1,0 +1,25 @@
+#sample below for redhat
+1. su root
+# add script to syslog server
+2. mkdir /opt/cdr
+3a. winscp avaya_listener.py to /opt/cdr 
+or 
+3b. vi /etc/avaya_listener.py 
+    press i
+    copy script content and paste into vi editor
+    press esc
+    type :wr! and hit enter
+# create service
+4a.  winscp avaya-cdr.service to /etc/systemd/system/
+or
+4b. vi /etc/systemd/system/avaya-cdr.servic
+    press i
+    copy service content and paste into vi editor
+    press esc
+    type :wr! and hit enter
+# start service
+5. systemctl start avaya-cdr.service && systemctl enable avaya-cdr.service
+# verify
+6. netstat -an | grep 5144 
+shoud show: udp        0      0 0.0.0.0:5144            0.0.0.0:*
+# no need to create cdr output folder. script will create at start up, if not present
