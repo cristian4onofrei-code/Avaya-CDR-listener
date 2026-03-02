@@ -1,14 +1,7 @@
 # Avaya-CDR-listener
 alternative to _list bcms skill_ but for regular hunt groups 
 
-**Requirements:**
-- Onex Communicator SIP registered to Session Manager
-- all Session Managers configured with remote Syslog server
-- systemd service on syslog server that runs python script
-- ddi routed to a vdn with _cov y if unconditionally_  (required for rona only)
-- Hunt Group has coverage path to itself (required for rona only)
-- depending on call volume, you need a cronjob to cleanup cdr outputs
-  
+
 **Description:**
  - script listens on port 5144 UDP (configurable) 
  - matches only extensions 75xx & 10xx (configurable)
