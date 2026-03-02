@@ -1,0 +1,17 @@
+[Unit]
+Description=Avaya CDR TCP Listener Service
+After=network.target
+
+[Service]
+Type=simple
+# Use the path you found in Step 2, and the location from Step 1
+ExecStart=/usr/bin/python3 /opt/cdr/avaya_listener.py
+Restart=always
+RestartSec=5
+User=root
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=avaya-cdr
+
+[Install]
+WantedBy=multi-user.target
