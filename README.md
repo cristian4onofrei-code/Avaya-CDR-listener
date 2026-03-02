@@ -1,5 +1,5 @@
 # Avaya-CDR-listener
-alternative to _list bcms skill_ but for regular hunt groups 
+Alternative to _list bcms skill_ but for regular hunt groups.
 Monitors hg for answered calls and unanswered per agent.
 
 
