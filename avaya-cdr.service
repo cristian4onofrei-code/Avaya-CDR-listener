@@ -1,5 +1,5 @@
 [Unit]
-Description=Avaya CDR TCP Listener Service
+Description=Avaya CDR UDP Listener Service
 After=network.target
 
 [Service]
