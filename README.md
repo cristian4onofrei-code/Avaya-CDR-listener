@@ -21,7 +21,7 @@ alternative to list bcms skill but for regular hunt groups
 if vdn is in same range as monitored stations (ie station range 10xx and vdn= 1000) script will not work properly.
 Best if you have vdn outside range or different lenght.
 
-Advantages:
+**Advantages:**
 - you can use mutt to email csv daily
 - you can make an alternate script to count answered/unanswered calls for each user/vdn daily/montly on antoher csv or insert into a postgresql table
   
