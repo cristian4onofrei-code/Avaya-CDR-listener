@@ -21,8 +21,5 @@ Best if you have vdn outside range or different lenght.
 **Output:**
 in /var/logs/avaya_cdr (configurable) there will be an csv per day sip_events_yyyy-mm-dd.csv that will have: date, time, calling number, vdn, station, call state, Av-Global-Session-id
 
-2026-03-02,21:09:03,+407564742401,654325,1003,ANSWERED,426a98f0-166b-11f1-a9a1-0050568cb03a
-2026-03-02,21:12:48,+407564742401,654326,1002,RONA    ,c9f3b5e0-166b-11f1-a9a1-0050568cb03a
-2026-03-02,21:12:50,+407564742401,654326,1003,ANSWERED,c9f3b5e0-166b-11f1-a9a1-0050568cb03a
-2026-03-02,21:31:15,+407564742401,654325,1002,RONA    ,5df1b010-166e-11f1-a9a1-0050568cb03a
-2026-03-02,21:31:18,+407564742401,654325,1003,ANSWERED,5df1b010-166e-11f1-a9a1-0050568cb03a
+<img width="739" height="96" alt="image" src="https://github.com/user-attachments/assets/802e0fde-1364-49d7-902e-5a954165f700" />
+
