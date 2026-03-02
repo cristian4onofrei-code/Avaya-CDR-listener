@@ -1,6 +1,6 @@
 - Onex Communicator SIP registered to Session Manager
 - all administred Session Managers needs to be configured with remote Syslog server
-- systemd service on syslog server that runs python script
+- python3 installed on syslog server
 - ddi routed to a vdn with cov y if unconditionally (required for rona only)
 - Hunt Group has coverage path to itself (required for rona only)
 - depending on call volume, you need a cronjob to cleanup cdr outputs
