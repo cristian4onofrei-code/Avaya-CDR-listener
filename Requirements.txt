@@ -1,6 +1,7 @@
 - Onex Communicator SIP registered to Session Manager (works with 3rd party sip phones/softphones, no need to be AST devices)
 - all administred Session Managers needs to be configured with remote Syslog server
 - python3 installed on syslog server
+- firewalld stopped on syslog server or port added to exception list
 - ddi routed to a vdn with cov y if unconditionally (required for rona only)
 - Hunt Group has coverage path to itself (required for rona only)
 - depending on call volume, you need a cronjob to cleanup cdr outputs
