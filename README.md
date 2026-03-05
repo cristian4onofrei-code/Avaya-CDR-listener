@@ -18,7 +18,9 @@ Best if you have vdn outside range or different lenght.
 **Advantages:**
 - you can use mutt to email csv daily
 - you can make an alternate script to count answered/unanswered calls for each user/vdn daily/montly on antoher csv or insert into a postgresql table
-  
+- since it tracks sip messages, you can customize reports anyway want
+- it can be applied to any SIP PBX with syslog capabilities
+
 **Output:**
 in /var/logs/avaya_cdr (configurable) there will be an csv per day sip_events_yyyy-mm-dd.csv that will have: date, time, calling number, vdn, station, call state, Av-Global-Session-id
 
